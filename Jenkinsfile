@@ -8,7 +8,7 @@ pipeline {
 		    }
 		stage('Build') {
 	        steps {
-				sh '/home/loren/.jenkins/workspace/mvn install'
+				sh '/home/loren/.jenkins/workspace/pipeline/mvn install'
 	        }
 		}
 		stage('Deployment') {
